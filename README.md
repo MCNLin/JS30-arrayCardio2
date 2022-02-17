@@ -18,6 +18,7 @@ In this challenge, I was given some test datasets and utilised other Array Metho
   const isAdult = people.some(person => ((new Date()).
       getFullYear()) - person.year >= 19);
   ```
+  returned true since there was a person 19 or older
 
 #### .every()
 - method tests whether all elements in the array pass the test implemented by the provided function. It returns a Boolean value.
